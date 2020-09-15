@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title> Блог </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="font-awesome/fontawesome-free-5.14.0-web/css/all.css">
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--Optional JavaScript -->
+    <!--jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- THIS IS BOOTSTRAP BOILERPLATE-->
+
+
+
+
+    <!--
+
+            1. Carousel 
+            2. 3 Panels: Top Rated, Location, Price
+            3. Covid19 - Panel: Mountain Locations
+            4. Staff Recommendation 
+            5. Where To ? - anywhere we roam 
+            6. About 
+
+
+        -->
+
+
+
+    <!-- ============================================================     HEADER       ===========================================================================-->
+    <div class="header">
+        <div class="d-flex justify-content-around">
+            <span>
+                <p>
+                <h4 style=" color:  rgb(229, 236, 165);"><b><a href="index.html"
+                            style=" text-decoration: none;; color: rgb(229, 236, 165) "> Иди Шетај!</a></b></h4>
+                </p>
+            </span>
+
+            <span>
+                <ul id="headerList">
+                    <li><a href="explore.html" style="text-decoration:none; color:  rgb(229, 236, 165); ">
+                            Дестинации</a></li>
+                    <li> <a href="blog.html" style="text-decoration:none; color:  rgb(229, 236, 165); ">Блог</a></li>
+                    <li><a href="./explore-mtn.html" style="text-decoration:none; color:  rgb(229, 236, 165); ">Covid19 Лето</a>
+                    </li>
+                    <li><a href="about.html" style="text-decoration:none; color:  rgb(229, 236, 165); ">За Нас</a></li>
+
+                </ul>
+            </span>
+
+        </div>
+    </div>
+
+
+    <!-- ========================================================       COVER IMAGE ========================================================        -->
+    <div>
+        <img src="images/boat3.png" alt="blog-cover" width="100%">
+
+        <br>
+        <div style="color: black; position: relative; top: -250px; left: 150px;">
+            <!-- COVER TEXT-->
+
+            <h1 style="color:rgba(39, 240, 240, 0.904); font-size:  60px;"><b>Патопис:</b></h1>
+            <h2 style="color:rgba(65, 241, 241, 0.904); font-size:  60px;"><b>Новини од нашата одисеја</b></h2>
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <!-- ============================================================     COVID19 PANEL       ===========================================================================-->
+    <div class="d-flex justify-content-center" style="position: relative; top:-160px; background-color: lightgray;">
+        <p> <a id='prussianText' href="https://www.koronavirus.gov.mk"> <i class="fas fa-exclamation-triangle"></i>
+                <b>COVID-19 Панел - Сите информации поврзани со
+                    моменталната ситуација</b></a></p>
+    </div>
+
+
+    <!-- ===============================================================  BODY          ========================================================================== -->
+    <div class="container" style="position: relative; top: -100px;">
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-8">
+
+                <h1 id="prussianText"><b>Блог - Сите објави</b></h1><br>
+                <div class="form ">
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Пребарувај постови">
+                        <div class="input-group-append">
+                            <button class="btn btn-info" type="submit">Потврди</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- POSTOVI -->
+
+                <!--  POST TEMPLATE-->
+                <div class="mt-5">
+
+
+
+
+                    <div class="row" style="margin-top: 50px;;">
+                        <div class="col-8">
+                            <span id="prussianText"
+                                style="font-size: xx-large; margin-right: 10px;"><b>Maврово</b></span><small> 3 мин.
+                                читање
+                            </small><br>
+                            <p class="pt-3">
+                                Во најновиот пост правиме осврт на нашата последна аватура, овој пат во домашни рамки -
+                                Маврово. <br>
+                                <button class="btn btn-outline-primary mt-3" style="color: primary; font-weight: bold;">
+                                    <a href="./cities/mavrovo.html" style="color:inherit">Види
+                                        Повеќе </a></button>
+                            </p>
+                        </div>
+
+                        <div class="col-4">
+                            <img class="rounded" src="./../Mavrovsko_ezero_-1024x678(1).jpg" alt="mavrovo"
+                                height="150px" width="220px">
+
+
+                        </div>
+                    </div>
+                    <hr>
+
+
+                    
+                    <div class="row" style="margin-top: 50px;;">
+                        <div class="col-8">
+                            <span id="prussianText" style="font-size: xx-large; margin-right: 10px;"><b>7 Рилски Езера, Мусала</b></span><small> 10 мин.
+                                читање
+                            </small><br>
+                            <p class="pt-3">
+                                Кај Пиринскиот дел на нашиот источен сосед, се наоѓа далеку прочуена убавина и несекојдневен феномен - 7 езера.Ова место се препорачува за сите љубители на планината без разлика на нивната физичка спремност.
+                                <br>
+                                <button class="btn btn-outline-primary mt-3" style="color: primary; font-weight: bold;">
+                                    <a href="./cities/rila.html" style="color:inherit">Види
+                                        Повеќе </a></button>
+                            </p>
+
+                        </div>
+
+                        <div class="col-4">
+                            <img class="rounded" src="./images/7rilalakes.jpg" alt="7rilalakes" height="150px"
+                                width="220px">
+
+                        </div>
+                    </div>
+                    <hr>
+
+                    
+                    <div class="row" style="margin-top: 50px;;">
+                        <div class="col-8">
+                            <span id="prussianText" style="font-size: xx-large; margin-right: 10px;"><b>Миконос,
+                                    Грција</b></span><small> 4 мин.
+                                читање
+                            </small><br>
+                            <p class="pt-3">
+                                Пост од секцијата #ThrowBack, да се присетиме на не-пандемски времиња.<br>
+                                <button class="btn btn-outline-primary mt-3" style="color: primary; font-weight: bold;">
+                                    <a href="./cities/mykonos.html" style="color:inherit">Види
+                                        Повеќе </a></button>
+                            </p>
+
+                        </div>
+
+                        <div class="col-4">
+                            <img class="rounded" src="./images/cities/mykonos.jpg" alt="mykonos" height="150px"
+                                width="220px">
+
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row" style="margin-top: 50px;;">
+                        <div class="col-8">
+                            <span id="prussianText" style="font-size: xx-large; margin-right: 10px;"><b>Кушадаси,
+                                    Турција</b></span><small> 5 мин.
+                                читање
+                            </small><br>
+                            <p class="pt-3">
+                                Во прилог ви го доставуваме нашето последно меѓунардно (пандемско) патување. <br>
+                                <button class="btn btn-outline-primary mt-3" style="color: primary; font-weight: bold;">
+                                    <a href="#">Види
+                                        Повеќе </a></button>
+                            </p>
+
+                        </div>
+
+                        <div class="col-4">
+                            <img class="rounded" src="./../кушадаси.jpg" alt="kusadasi" height="150px" width="220px">
+
+                        </div>
+                    </div>
+                    <hr>
+
+
+                    <!-- VMETNI PLANINSKI POST-->
+
+                    <div class="row" style="margin-top: 50px;;">
+                        <div class="col-8">
+                            <span id="prussianText" style="font-size: xx-large; margin-right: 10px;"><b>Талин,
+                                    Eстонија</b></span><small> 4 мин.
+                                читање
+                            </small><br>
+                            <p class="pt-3">
+                                Ви го претставуваме градот со најмногу старапи по човек во светот, но покрај технологија
+                                изобилува и со други убавини,
+                                кои ќе ви ги откриеме во остатокот од постот.<br>
+                                <button class="btn btn-outline-primary mt-3" style="color: primary; font-weight: bold;">
+                                    <a href="#">Види
+                                        Повеќе </a></button>
+                            </p>
+
+                        </div>
+
+                        <div class="col-4">
+                            <img class="rounded" src="./images/cities/tallinn.jpg" alt="tallinn" height="150px"
+                                width="220px">
+
+                        </div>
+                    </div>
+                    <hr>
+
+
+                    <div class="row" style="margin-top: 50px;;">
+                        <div class="col-8">
+                            <span id="prussianText" style="font-size: xx-large; margin-right: 10px;"><b>Порто,
+                                    Португалија</b></span><small> 10 мин.
+                                читање
+                            </small><br>
+                            <p class="pt-3">
+                                Малку невообичаено издание на сончевата Португалија односно вон-сезонско издание.Сепак
+                                не останавме разочарани<br>
+                                <button class="btn btn-outline-primary mt-3" style="color: primary; font-weight: bold;">
+                                    <a href="#">Види
+                                        Повеќе </a></button>
+                            </p>
+
+                        </div>
+
+                        <div class="col-4">
+                            <img class="rounded" src="./images/cities/porto.jpg" alt="porto" height="150px"
+                                width="220px">
+
+                        </div>
+                    </div>
+                    <hr>
+
+
+
+                    <div class="row" style="margin-top: 50px;;">
+                        <div class="col-8">
+                            <span id="prussianText" style="font-size: xx-large; margin-right: 10px;"><b>Париз,
+                                    Франција</b></span><small> 14 мин.
+                                читање
+                            </small><br>
+                            <p class="pt-3">
+                                Градот на љубовта, на денот на љубовта (и малку потоа).<br>
+                                <button class="btn btn-outline-primary mt-3" style="color: primary; font-weight: bold;">
+                                    <a href="#">Види
+                                        Повеќе </a></button>
+                            </p>
+
+                        </div>
+
+                        <div class="col-4">
+                            <img class="rounded" src="./images/cities/paris.jpg" alt="paris" height="150px"
+                                width="220px">
+
+                        </div>
+                    </div>
+                    <hr>
+
+                    <!-- VMETNI PLANINSKI POST-->
+
+                    <div class="row" style="margin-top: 50px;;">
+                        <div class="col-8">
+                            <span id="prussianText" style="font-size: xx-large; margin-right: 10px;"><b>Лондон,
+                                    Англија</b></span><small> 24 мин.
+                                читање
+                            </small><br>
+                            <p class="pt-3">
+                                Преубавиот Лондон во пролетно издание.Зачудувачки одличен покрај сите временски
+                                неприлики (дожд) <br>
+                                <button class="btn btn-outline-primary mt-3" style="color: primary; font-weight: bold;">
+                                    <a href="#">Види
+                                        Повеќе </a></button>
+                            </p>
+
+                        </div>
+
+                        <div class="col-4">
+                            <img class="rounded" src="./images/cities/london.jpg" alt="london" height="150px"
+                                width="220px">
+
+                        </div>
+                    </div>
+                    <hr>
+
+
+                    <div class="row" style="margin-top: 50px;;">
+                        <div class="col-8">
+                            <span id="prussianText" style="font-size: xx-large; margin-right: 10px;"><b>Будимпешта,
+                                    Унгарија</b></span><small> 10 мин.
+                                читање
+                            </small><br>
+                            <p class="pt-3">
+                                Малку гулаш и многу убавина.Можеме да потврдиме дека е еден од најубавите градови во
+                                Источна Европа<br>
+                                <button class="btn btn-outline-primary mt-3" style="color: primary; font-weight: bold;">
+                                    <a href="#">Види
+                                        Повеќе </a></button>
+                            </p>
+
+                        </div>
+
+                        <div class="col-4">
+                            <img class="rounded" src="./images/cities/budapest.jpg" alt="budapest" height="150px"
+                                width="220px">
+
+                        </div>
+                    </div>
+                    <hr>
+
+
+
+                    <div class="row" style="margin-top: 50px;;">
+                        <div class="col-8">
+                            <span id="prussianText" style="font-size: xx-large; margin-right: 10px;"><b>Ова треба да е
+                                    планина</b></span><small> 14 мин.
+                                читање
+                            </small><br>
+                            <p class="pt-3">
+                                Градот на љубовта, на денот на љубовта (и малку потоа).<br>
+                                <button class="btn btn-outline-primary mt-3" style="color: primary; font-weight: bold;">
+                                    <a href="#">Види
+                                        Повеќе </a></button>
+                            </p>
+
+                        </div>
+
+                        <div class="col-4">
+                            <img class="rounded" src="./images/cities/paris.jpg" alt="paris" height="150px"
+                                width="220px">
+
+                        </div>
+                    </div>
+
+                    <!-- ============================================ PAGINACIJA ============================================================ -->
+                    <div class="paginacija" style="margin-top: 70px;" >
+
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item"><a class="page-link" href="#">6</a></li>
+                            <li class="page-item"><a class="page-link" href="#">7</a></li>
+                            <li class="page-item"><a class="page-link" href="#">8</a></li>
+                            <li class="page-item"><a class="page-link" href="#">9</a></li>
+                            <li class="page-item"><a class="page-link" href="#">10</a></li>
+                            <li class="page-item"><a class="page-link" href="#">11</a></li>
+                            <li class="page-item"><a class="page-link" href="#">12</a></li>
+                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#">100</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+
+                <div class="d-flex justify-content-end" id="prussianText">
+                    <h3 id="prussianText"><b>Дестинации во тренд</b></h3>
+                </div>
+
+                <div style="margin-top: 20px; margin-left: 40px;;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="#">Талин</a></li>
+                        <li class="list-group-item"><a href="#">Будимпешта</a></li>
+                        <li class="list-group-item"><a href="#">Лондон</a></li>
+                        <li class="list-group-item"><a href="#">Париз</a></li>
+                        <li class="list-group-item"><a href="#">Санторини</a></li>
+                    </ul>
+                    <ul>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ============================================================     SUBSCRIBE       ===========================================================================-->
+    <div class="subscribe">
+
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-6 ">
+                    <h2 class="text-center"> #ЗаследиНе</h2>
+                    <div class="pt-5">
+                        <button type="button" class="btn btn-outline-primary"><i class="fab fa-facebook-f"> </i>
+                            Иди
+                            Шетај </button>
+                        <button type="button" class="btn btn-outline-primary"> <i class="fab fa-instagram"> </i>
+                            idi.shetaj! </button>
+                        <button type="button" class="btn btn-outline-primary"> <i class="fab fa-twitter"> </i>
+                            idi.shetaj!</button>
+                        <button type="button" class="btn btn-outline-primary"> <i class="fab fa-youtube"> </i>
+                            IdiShetaj
+                        </button>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+                <div class="col-6 ">
+                    <h2> Биди во тек со сите новости! </h2>
+                    <div style="padding-top: 20px;">
+                        <i> Пријави ja твојата е-маил адреса за неделни совети за патување и ексклузивни
+                            понуди.
+                            <br></i>
+
+                        <form style="padding-top: 30px;">
+                            <div class="form-group pb-2">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="E-mail">
+                                <small id="emailHelp" class="form-text text-muted">
+                                    Прифаќам да добивам е-маил пораки од Оди Шетај кои ќе имаат содржини за
+                                    патување,
+                                    промоции, реклами, анкети и понуди од трети страни.
+                                </small>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Пријави се</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <br><br>
+
+
+    </div>
+
+
+
+    <!-- ============================================================     FOOTER       ===========================================================================-->
+    <div>
+
+        <footer style="color: rgb(229, 236, 165); ">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-4">
+                        <h3><a href="explore.html" class="rezerva" id="frtkls"> Дестинации</a></h3><br>
+                        <p>
+                            Туристички Советник <br>
+                            <a href="blog.html" class="rezerva" id="frtkls"> Блог </a></h3><br>
+                        </p>
+                    </div>
+                    <div class="col-xs-6 col-4">
+
+                        <h3><a href="about.html" class="rezerva" id="frtkls"> За Нас</a></h3><br>
+                        <p>
+                            Контакт <br>
+                            Кариера <br>
+                            Полиса за Колачиња <br>
+                        </p>
+                    </div>
+                    <div class="col-xs-6 col-4">
+                        <h3>Продавница</h3><br>
+                        <p>
+                            Односи со јавност <br>
+                            Често поставувани прашања
+                        </p>
+                    </div>
+                </div>
+
+                <hr style="background-color: white; margin-top: 20px; margin-bottom: 20px;">
+
+                <div class="d-flex justify-content-center">
+                    <p><i> Сите права се задржани.Ниту еден дел од оваа веб страна не смее да се репродуцира без
+                            писмена
+                            потврда!
+                            <br> <span style="padding-left: 200px;"> Stefan Apostolovski - 165038 @ FINKI,
+                                2020</span>
+                        </i> </p>
+                </div>
+
+
+
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

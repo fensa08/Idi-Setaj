@@ -1,0 +1,51 @@
+   <div class="mt-5">
+
+
+                 
+                    
+                    <div class="row" style="margin-top: 50px;;">
+                        <div class="col-8">
+                            <span id="prussianText"
+                                style="font-size: xx-large; margin-right: 10px;"><b>Maврово</b></span><small> 3 мин.
+                                читање
+                            </small><br>
+                            <p class="pt-3">
+                                Во најновиот пост правиме осврт на нашата последна аватура, овој пат во домашни рамки -
+                                Маврово. <br>
+                                <button class="btn btn-outline-primary mt-3" style="color: primary; font-weight: bold;">
+                                    <a href="#">Види
+                                        Повеќе </a></button>
+                            </p>
+                        </div>
+
+                        <div class="col-4">
+                            <img class="rounded" src="./../Mavrovsko_ezero_-1024x678(1).jpg" alt="mavrovo"
+                            height="150px" width="220px">
+
+
+                        </div>
+                    </div>
+                    <hr>
+
+
+                    <div class="row" style="margin-top: 50px;;">
+                        <div class="col-8">
+                            <span id="prussianText" style="font-size: xx-large; margin-right: 10px;"><b>Кушадаси,
+                                    Турција</b></span><small> 5 мин.
+                                читање
+                            </small><br>
+                            <p class="pt-3">
+                                Во прилог ви го доставуваме нашето последно меѓунардно (пандемско) патување. <br>
+                                <button class="btn btn-outline-primary mt-3" style="color: primary; font-weight: bold;">
+                                    <a href="#">Види
+                                        Повеќе </a></button>
+                            </p>
+
+                        </div>
+
+                        <div class="col-4">
+                            <img class="rounded" src="./../кушадаси.jpg" alt="kusadasi" height="150px" width="220px">
+
+                        </div>
+                    </div>
+                    <hr>

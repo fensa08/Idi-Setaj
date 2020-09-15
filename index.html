@@ -1,0 +1,958 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title> Иди Шетај! </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="font-awesome/fontawesome-free-5.14.0-web/css/all.css">
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--Optional JavaScript -->
+    <!--jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- THIS IS BOOTSTRAP BOILERPLATE-->
+
+
+
+
+    <!--
+
+            1. Carousel 
+            2. 3 Panels: Top Rated, Location, Price
+            3. Covid19 - Panel: Mountain Locations
+            4. Staff Recommendation 
+            5. Where To ? - anywhere we roam 
+            6. About 
+
+
+        -->
+
+
+
+    <!-- ============================================================     HEADER       ===========================================================================-->
+    <div class="header">
+        <div class="d-flex justify-content-around">
+            <span>
+                <p>
+                <h4 style=" color:  rgb(229, 236, 165);"><b><a href="index.html"
+                            style=" text-decoration: none;; color: rgb(229, 236, 165) "> Иди Шетај!</a></b></h4>
+                </p>
+            </span>
+
+            <span>
+                <ul id="headerList">
+                    <li><a href="explore.html" style="text-decoration:none; color:  rgb(229, 236, 165); ">
+                            Дестинации</a></li>
+                    <li> <a href="blog.html" style="text-decoration:none; color:  rgb(229, 236, 165); ">Блог</a></li>
+                    <li><a href="./explore-mtn.html" style="text-decoration:none; color:  rgb(229, 236, 165); ">Covid19
+                            Лето</a>
+                    </li>
+                    <li><a href="about.html" style="text-decoration:none; color:  rgb(229, 236, 165); ">За Нас</a></li>
+
+                </ul>
+            </span>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- ============================================================     CAROUSEL       ===========================================================================-->
+    <div id="idea" style="width: 100%; ">
+
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!--
+          <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+
+
+      </ul>
+     -->
+            <div class="carousel-inner" style="width: 100%;">
+                <div class="carousel-item active">
+                    <img src="./images/odi-setaj/nice-walk.jfif" alt="man walking" width="100%" height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/beach.jpeg" alt="New York" width="100%" height="600">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./images/6.jpg" alt="New York" width="100%" height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/2.jpg" alt="New York" width="100%" height="600">
+                </div>
+
+
+                <div id="karuzel" class="carousel-caption">
+                    <div style=" color:  rgb(229, 236, 165);">
+
+                        <span style="font-size: 50px; font-weight: bolder; ">Иди Шетај, спознај го светот! <br> </span>
+                        <p style="font-size: 20px; font-weight: bold;"> - Туристички советник и извор на инспирација -
+                        </p>
+                        <div><button style=" top: -500px; width: 150px;" class="btn btn-primary" type="button"
+                                onclick="redirect()">
+                                <a href="./explore.html" style="color:inherit">Истражувај</a></button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ============================================================     COVID19 PANEL       ===========================================================================-->
+    <div class="d-flex justify-content-center pt-3 " style="background-color: lightgray;">
+        <p> <a id='prussianText' href="https://www.koronavirus.gov.mk"> <i class="fas fa-exclamation-triangle"></i>
+                <b>COVID-19 Панел - Сите информации поврзани со
+                    моменталната ситуација</b></a></p>
+    </div>
+
+    <!-- ============================================================     MOST POPULAR       ===========================================================================-->
+    <div class="d-flex justify-content-center pt-5 pb-4">
+        <h2 id='prussianText'> <b> Популарни Дестинации</b></h2>
+    </div>
+    <div class="container pt-3 pb-3">
+        <div class="row">
+
+
+            <div class="col-sm-6 col-md-4 mb-3">
+                <div class="card" style="width: 20rem; border:none;">
+                    <a href="#"><img src="./images/paris-640x480.jpg" class="card-img-top rounded" alt="Paris"></a>
+
+                    <div class="card-body">
+                        <a href="#">
+                            <h3 class="card-title" style='color:black;'>Парис</h3>
+                            <p class="card-text" style="color:black;">Градот на љубовта очекувано се најде на првата
+                                позиција.Секој коментар би бил вишок, за ова магично место.</p>
+                        </a>
+                        <div>
+                            <button class="btn btn-outline-primary mt-4" style="color: primary; font-weight: bold;">
+                                <a href="cities/paris.html" style="color:inherit">Види
+                                    Повеќе</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4 mb-3 ">
+                <div class="card" style="width: 20rem; border:none;">
+                    <a href="#"><img src="./images/santorini-640x480.jpg" class="card-img-top rounded"
+                            alt="Santorini"></a>
+
+                    <div class="card-body">
+                        <a href="#">
+                            <h3 class="card-title" style='color:black;'>Санторини</h3>
+                            <p class="card-text" style="color:black;">Маѓепсувачката плаво-бела комбинација збогатена со
+                                извонредниот видик, ги оставаат посетителите без здив.</p>
+                        </a>
+                        <div>
+                            <button class="btn btn-outline-primary mt-4" style="color: primary; font-weight: bold;">
+                                <a href="cities/santorini.html" style="color:inherit">Види
+                                    Повеќе</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4 mb-3 ">
+                <div class="card" style="width: 20rem; border:none;">
+                    <a href="#">
+                        <img src="./images/london towe.jpg" class="card-img-top rounded" alt="Dubrovnik">
+                        <div class="card-body">
+                            <h3 class="card-title" style="color: black;">Лондон</h3>
+                            <p class="card-text" style="color:black;"> Градот на Темза, чија убавина, историја
+                                и богат диверзитет на култури нема да ве остави рамнодушен. </p>
+                    </a>
+                    <div>
+                        <button class="btn btn-outline-primary mt-4" style="color: primary; font-weight: bold;">
+                            <a href="cities/london.html" style="color:inherit">Види
+                                Повеќе</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="d-flex justify-content-center pt-3">
+        <button id="kopce"> <a href="explore.html" id="rezerva"> Истражи Дестинации</a> </button>
+    </div>
+
+
+    <!-- ============================================================     QUOTE       ===========================================================================-->
+    <div style="background-color: #f0ebeb;" class="mt-4">
+        <q> Патувањето најпрво те остава без зборови, потоа те прави раскажувач</q>
+    </div>
+
+
+
+
+    <!-- ============================================================     VALUE DEALS       ===========================================================================-->
+    <div class="d-flex justify-content-center pt-5">
+        <h2 id='prussianText'> <b> Одлични зделки кои заслужуваат внимание</b></h2>
+    </div>
+    <div class="container pt-3 pb-3">
+
+        <div class="row">
+
+
+            <div class="col-sm-6 col-md-4 mb-3">
+                <div class="card" style="width: 20rem; border:none;">
+                    <a href="#"><img src="./images/budapest.jpg" class="card-img-top rounded" alt="Paris"></a>
+
+                    <div class="card-body">
+                        <a href="#">
+                            <h3 class="card-title" style='color:black;'>Будимпешта</h3>
+                            <p class="card-text" style="color:black;">
+                                Најдоброто од Источна Европа во буквално секоја смисла, Будимпешта е преубаво место кое
+                                не смее да се заобиколи.
+                            </p>
+                        </a>
+                        <div>
+                            <button class="btn btn-outline-primary mt-4" style="color: primary; font-weight: bold;">
+                                <a href="cities/budapest.html" style="color:inherit">Види
+                                    Повеќе</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4 mb-3 ">
+                <div class="card" style="width: 20rem; border:none;">
+                    <a href="#"><img src="./images/tallinn.jpg" class="card-img-top rounded" alt="Santorini"></a>
+
+                    <div class="card-body">
+                        <a href="#">
+                            <h3 class="card-title" style='color:black;'>Талин </h3>
+                            <p class="card-text" style="color:black;">Ситуиран на Балтикот. Технолошки-модерен град со
+                                богата историја, традиција и убавина.Погоден за сите префинети вкусови</p>
+                        </a>
+                        <div>
+                            <button class="btn btn-outline-primary mt-4" style="color: primary; font-weight: bold;">
+                                <a href="cities/tallinn.html" style="color:inherit">Види
+                                    Повеќе</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4 mb-3 ">
+                <div class="card" style="width: 20rem; border:none;">
+                    <a href="#">
+                        <img src=".//images/porto.jpg" class="card-img-top rounded" alt="Dubrovnik">
+                        <div class="card-body">
+                            <h3 class="card-title" style="color: black;">Порто</h3>
+                            <p class="card-text" style="color:black;">
+                                Еден од најстарите европски градови, познат по величенствените историски знаменитости и
+                                локалитети, како и реката Дуро.
+
+                            </p>
+                    </a>
+                    <div>
+                        <button class="btn btn-outline-primary mt-4" style="color: primary; font-weight: bold;">
+                            <a href="cities/porto.html" style="color:inherit">Види
+                                Повеќе</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <div class="d-flex justify-content-center pt-3 pb-5">
+        <button id="kopce"> <a href="explore.html" id="rezerva"> Истражи Дестинации</a> </button>
+    </div>
+
+    <!-- =========================================================== MOUNTAIN TRAVEL =================================================================-->
+    <div>
+        <img src="./images/alpwalk2.png" alt="man" width="100%">
+        <h1 style="position: relative; top: -250px; left:50px; font-weight:bold; color:gold" id='prussianText'>COVID-19
+            Лето: <br> Дистанцирај Се!</h1>
+        <div id='kopce2' class="btn  btn-success"
+            style="   width: 310px; font-size: large; position:relative; top: -200px; left:50px"> <b> <a
+                    href="explore-mtn.html" style="color:inherit">Истражи Планински
+                    Атракции</a></b> </div>
+
+    </div>
+
+
+
+    <!-- ============================================================     LOKACII       ===========================================================================-->
+
+    <div id="gradovi">
+
+        <div class="d-flex justify-content-center  mb-4">
+            <h1 id='prussianText'> <b>Пребарувај по Градови </b> </h1>
+        </div>
+        <div class="container mt-3 mb-3">
+            <div class="row ">
+
+
+                <!-- TEMPLATE-->
+                <div class="col-md-4 col-sm-6">
+
+                    <div class="card mb-3 mt-5 ml-5" style=" max-width: 350px; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/amstedeam.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Амстердам</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6">
+
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/athens.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Атина</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/belgrade.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Белград</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/budapest.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Будимпешта</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/barcelona.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5><a href="#"><b>Барселона</b></a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-6">
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/berlin.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Берлин</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-6">
+
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/vienna.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Виена</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-6">
+
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/venezia.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Венеција</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/dubrovnik.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5><a href="#"><b>Дубровник</b></a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-6">
+
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/edinburg.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Eдинбург</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-6">
+
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/istanbul.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Истамбул</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/london.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5><a href="#"><b>Лондон</b></a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6">
+
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/monaco.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Монако</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-6">
+
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/moscow.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Москва</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/milano.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5><a href="#"><b>Милано</b></a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6">
+
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/paris.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Париз</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-6">
+
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/porto.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Порто</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/rome.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5><a href="#"><b>Рим</b></a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-6">
+
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/stochkolm.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Стокхолм</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-6">
+
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/santo.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body" style="font-weight: bold;">
+                                    <h5><a href="#"> <b>Санторини</b> </a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+
+                    <div class="card mb-3 mt-5 ml-5" style="max-width: 350px ; width: 400px;;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="./images/cities/tallinn.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5><a href="#"><b>Талин</b></a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="d-flex justify-content-center pt-5">
+                <button id="kopce"> <a href="explore.html" id="rezerva"> Види Повеќе</a> </button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div style="background-color: #f0ebeb;">
+        <q> Патувањето e единственото нешто што го купуваш, а те прави побогат! </q>
+    </div>
+
+
+    <!-- ============================================================     LATEST FROM BLOG        ===========================================================================-->
+    <div class="d-flex justify-content-center pt-5">
+        <h2 id='prussianText'> <b> Најново од Блог секцијата </b></h2>
+    </div>
+    <div class="container pt-3 pb-3">
+        <div class="row">
+
+
+            <div class="col-sm-6 col-md-4 mb-3">
+                <div class="card" style="width: 20rem; border:none;">
+                    <a href="#"><img src="./images/mavrovo-cover1.jpg" class="card-img-top rounded" alt="Paris"></a>
+
+                    <div class="card-body">
+                       
+                            <h3 class="card-title" style='color:black;'>Маврово</h3>
+                            <p class="card-text" style="color:black;">Во најновиот пост правиме осврт на нашата последна
+                                (пандемска) авантура, овој пат во домашни рамки - Маврово.</p>
+                       
+                        <div>
+                            <button class="btn btn-outline-primary mt-4" style="color: primary; font-weight: bold;">
+                                <a href="./cities/mavrovo.html" style="color:inherit"> Види Повеќе</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4 mb-3 ">
+                <div class="card" style="width: 20rem; border:none;">
+                    <img src="./images/rilalakes-cover1.jpg" class="card-img-top rounded" alt="Santorini">
+                    
+
+                    <div class="card-body">
+
+                        <h3 class="card-title" style='color:black;'>7 Рилски Езера</h3>
+                        <p class="card-text" style="color:black;">Кај Пиринскиот дел на нашиот источен сосед, се наоѓа
+                            далеку прочуена убавина и несекојдневен феномен - 7 езера.</p>
+
+                        <div>
+                            <button class="btn btn-outline-primary mt-4" style="color: primary; font-weight: bold;">
+                                <a href="./cities/rila.html" style="color:inherit"> Види Повеќе</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4 mb-3 ">
+                <div class="card" style="width: 20rem; border:none;">
+
+                    <img src="./images/cities/mykonos.jpg" class="card-img-top rounded" alt="Dubrovnik">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color: black;">Миконос</h3>
+                        <p class="card-text" style="color:black;"> Пост од секцијата #ThrowBack, да се присетиме на
+                            не-пандемски времиња.Вистинско уживање во плаво-бела атмосфера, зачинето со песочно златна
+                            боја.</p>
+
+                        <div>
+                            <button class="btn btn-outline-primary mt-4" style="color: primary; font-weight: bold;">
+                                <a href="./cities/mykonos.html" style="color:inherit"> Види Повеќе </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center pt-3">
+        <button id="kopce"> <a href="explore.html" id="rezerva"> Истражи Дестинации</a> </button>
+    </div>
+
+
+
+    <!-- ============================================================    STAFF RECOMMENDATION       ===========================================================================-->
+    <div class="d-flex justify-content-center ">
+        <p id='prussianText' style="position: relative; top: 250px; font-size: 60px;"> <b> Кај да шетам? </b></p>
+        
+    </div>
+
+    <div class="d-flex justify-content-center" style="position: relative; top: 550px">
+        <p  style="color: rgb(229, 236, 165) ; font-size: 60px;"><b>Препорака: 7 Рилски Езера</b></p>
+    </div>
+
+    
+    <div class="d-flex justify-content-center" style="position: relative; top: 550px">
+        <button id="kopce"> <a href="./cities/rila.html" id="rezerva" style="color:inherit"> <b>Види Детали</b></a> </button>
+    </div>
+    <div>
+        <img src="./images/rilalakes-cover.jpg" alt=" rila">
+    </div>
+    </div>
+
+
+
+
+
+    <!-- ============================================================     SUBSCRIBE       ===========================================================================-->
+    <div class="subscribe">
+
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-6 ">
+                    <h2 class="text-center"> #ЗаследиНе</h2>
+                    <div class="pt-5">
+                        <button type="button" class="btn btn-outline-primary"><i class="fab fa-facebook-f"> </i> Иди
+                            Шетај </button>
+                        <button type="button" class="btn btn-outline-primary"> <i class="fab fa-instagram"> </i>
+                            idi.shetaj! </button>
+                        <button type="button" class="btn btn-outline-primary"> <i class="fab fa-twitter"> </i>
+                            idi.shetaj!</button>
+                        <button type="button" class="btn btn-outline-primary"> <i class="fab fa-youtube"> </i> IdiShetaj
+                        </button>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+                <div class="col-6 ">
+                    <h2> Биди во тек со сите новости! </h2>
+                    <div style="padding-top: 20px;">
+                        <i> Пријави ja твојата е-маил адреса за неделни совети за патување и ексклузивни
+                            понуди.
+                            <br></i>
+
+                        <form style="padding-top: 30px;">
+                            <div class="form-group pb-2">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="E-mail">
+                                <small id="emailHelp" class="form-text text-muted">
+                                    Прифаќам да добивам е-маил пораки од Оди Шетај кои ќе имаат содржини за патување,
+                                    промоции, реклами, анкети и понуди од трети страни.
+                                </small>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Пријави се</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <br><br>
+
+
+    </div>
+
+
+    <!-- ============================================================     FOOTER       ===========================================================================-->
+    <div>
+        <footer style="color: rgb(229, 236, 165); ">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-4">
+                        <h3><a href="explore.html" class="rezerva" id="frtkls"> Дестинации</a></h3><br>
+                        <p>
+                            Туристички Советник <br>
+                            <a href="blog.html" class="rezerva" id="frtkls"> Блог </a></h3><br>
+                        </p>
+                    </div>
+                    <div class="col-xs-6 col-4">
+
+                        <h3><a href="about.html" class="rezerva" id="frtkls"> За Нас</a></h3><br>
+                        <p>
+                            Контакт <br>
+                            Кариера <br>
+                            Полиса за Колачиња <br>
+                        </p>
+                    </div>
+                    <div class="col-xs-6 col-4">
+                        <h3>Продавница</h3><br>
+                        <p>
+                            Односи со јавност <br>
+                            Често поставувани прашања
+                        </p>
+                    </div>
+                </div>
+
+                <hr style="background-color: white; margin-top: 20px; margin-bottom: 20px;">
+
+                <div class="d-flex justify-content-center">
+                    <p><i> Сите права се задржани.Ниту еден дел од оваа веб страна не смее да се репродуцира без писмена
+                            потврда!
+                            <br> <span style="padding-left: 200px;"> Stefan Apostolovski - 165038 @ FINKI, 2020</span>
+                        </i> </p>
+                </div>
+
+
+
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.20.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.20.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+
+
+
+
+</body>
+
+</html>

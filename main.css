@@ -1,0 +1,268 @@
+
+
+
+#text{
+
+position: relative;
+bottom:0;
+top: -100px;
+text-align: center;
+font-weight: bolder;
+font-family: 'Courier New', Courier, monospace;
+color: white;
+background-color: black;
+width: 100%;
+background: rgba(0,0,0);
+background: rgba(0,0,0,0.4);
+padding-bottom: 20px;;
+padding-top: 10px;
+}
+
+.krsl{
+    
+position: relative;
+bottom: 0;
+
+top: 40px;
+text-align: center;
+font-weight: bolder;
+font-family: 'Courier New', Courier, monospace;
+color: white;
+background-color: black;
+width: 100%;
+background: rgba(0,0,0);
+background: rgba(0,0,0,0.4);
+
+
+}
+
+
+
+#krslcc{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+    
+}
+
+
+
+.karticka{
+
+    width: 200px;
+    
+    font-size: 30px;
+    font-weight: bold;
+    
+    border-radius: 20px;
+    margin: 20px 20px;
+    
+    text-align:center;
+    display: inline-block;
+
+}
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.karticka2{
+
+    text-align: center;
+    width: 200px;
+  
+    border: 1px solid black;
+    border-radius: 20px ;
+    box-shadow:  3px 3px grey;
+    margin: 20px 50px;
+    padding-left: 6px;
+    padding-top: 6px;
+   
+}
+
+
+
+
+
+footer{
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color:#003153 ;
+    color:white;
+    
+}
+
+#footerhr{
+    color:white;
+}
+
+.subscribe{
+
+    display: block;
+    width: 100%;
+    background-color: #054e83 ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:rgb(229, 236, 165);
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+
+div.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+q{
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    color: grey;
+    font-style: italic;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:70px;
+}
+
+#kopce{
+    background-color:#003153;
+    color:white;
+    font-weight: bold;
+    font-size: large;
+    border:none;
+    border-radius: 25px;
+    height: 45px;
+    width: 250px;
+    transition-delay: 5ms;
+}
+#kopce:hover{
+    background-color:white;
+    color:#003153;
+    font-weight: bold;
+    border: 1px solid #003153;
+    border-radius: 25px;
+    height: 45px;
+    width: 250px;
+    transition-delay: 5ms;
+}
+
+#gradovi{
+    position: relative;
+    top:-80px;
+}
+
+#kopce2{
+    background-color:darkgreen;
+    color:yellow;
+    font-weight: bold;
+    font-size: large;
+    border:none;
+    border-radius: 25px;
+    height: 45px;
+    width: 280px;
+    transition-delay: 5ms;
+}
+#kopce2:hover{
+    background-color:yellowgreen;
+    color:darkgreen;
+    font-weight: bold;
+    border: 1px solid #003153;
+    border-radius: 25px;
+    height: 45px;
+    width: 280px;
+    transition-delay: 5ms;
+}
+
+#kop:hover{
+    color: #003153;
+}
+
+#idea{
+    position: relative;
+    max-width: 100%; /* Maximum width */
+    margin: 0 auto; /* Center it */
+    padding-top:0 ;
+    margin-top: 0;
+}
+
+#karuzel{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    text-align: center;
+    left: 0px;
+    width: 100%;
+}
+
+#prussianText{
+    color: #003153;
+}
+
+h4 b{
+    color:white;
+}
+
+#smenime{
+    background-color: silver;
+}
+
+.card{
+    margin: 20px 10px 10px 10px;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #003153;
+}
+
+#headerList li{
+    margin-right: 30px;
+    margin-top:10px;
+    float:left;
+    font-size: x-large;
+}
+
+.header{
+    display: block;
+    width: 100%;
+    background-color:#003153 ;
+}
+
+
+
+#rezerva, #rezerva:hover, #rezerva:visited{
+    text-decoration: none;
+    color:inherit;
+}
+
+.rezerva, .rezerva:hover, .rezerva:visited{
+    text-decoration: none;
+    color:inherit;
+}
